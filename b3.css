@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+h1{
+    max-width: 80%;
+    margin: 50px 0;
+}
+.navi-bar{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 100px;
+}
+.search-area{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    width: 70%;
+}
+.input{
+    border: none;
+    width: 90%;
+}
+.input :focus{
+    border: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-item > a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.menu-item{
+    height: 100%;
+}
+.menu-item :hover{
+    background-color: rgb(81, 162, 229);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 100px 50px;
+}
+.input-info-container > img{
+    width: 100px;
+    border-radius: 50%;
+}
+.input-info-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.input-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 200%;
+}
+.hobby > span{
+    border: 1px solid lightgray;
+    border-radius: 18px;
+    padding: 5px;
+    color: blue;
+}
